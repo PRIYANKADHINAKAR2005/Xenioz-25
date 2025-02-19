@@ -299,7 +299,23 @@ body {
   position: absolute;
   z-index: 9;
   left: 28%;
-  top: 36%;
+  top: 30%;
+}
+.D-title{
+  width: max-content;
+  font-family: "Ringbearer", sans-serif;
+  background: linear-gradient(169deg, #ec9244 25.87%,#FFE374 92.15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.75rem;
+  position: absolute;
+  z-index: 9;
+  left: 28%;
+  top: 50%;
+  /* text-shadow: 1px 1px rgba(255, 217, 0, 0.235); */
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.358); */
+
 }
 .xeniox-title span{
   font-family: "Merriweather", serif;
@@ -677,6 +693,14 @@ text-shadow: 1px 1px rgba(238, 206, 0, 0.356);;
     margin-left:-20%;
     font-size: 3.5rem;
   }
+  .D-title{
+    font-size: 0.7rem;
+    margin-left:-20%;
+    margin-top: -15%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.358);
+
+
+  }
 }
 
 /* ================= Medium Mobile Devices (321px to 480px) ================= */
@@ -684,6 +708,15 @@ text-shadow: 1px 1px rgba(238, 206, 0, 0.356);;
   .xeniox-title{
     margin-left:-15% ;
     font-size: 3.5rem;
+  }
+  .D-title{
+    font-size: 0.7rem;
+    margin-left:-15%;
+    margin-top: -13%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.358);
+
+
+
   }
 }
 
@@ -693,8 +726,25 @@ text-shadow: 1px 1px rgba(238, 206, 0, 0.356);;
     margin-left:-11% !important;
     font-size: 3.5rem;
   }
-}
+  .D-title{
+    font-size: 0.7rem;
+    margin-left:-11%;
+    margin-top: -11%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.358);
 
+
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+  .D-title{
+    font-size: 1.7rem;
+    margin-top: 0.5%;
+    margin-left: -7%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.358);
+
+
+  }
+}
 /* ------------------------------ */
 /* Tablet Devices (501px to 899px) */
 /* ------------------------------ */
@@ -703,7 +753,13 @@ text-shadow: 1px 1px rgba(238, 206, 0, 0.356);;
     font-size: 6rem;
     /* left: 20%; */
   }
+  .D-title{
+    font-size: 1.2rem;
+    margin-top: 0.5%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.358);
 
+
+  }
   .events-title {
     font-size: 1rem;
   }
